@@ -1,12 +1,10 @@
 <html>
 
 <head>
-  <title>AIRO-Chatbot</title>
+  <title>Parkinson AI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" type="text/css" href="day.css">
   <link rel="stylesheet" type="text/css" href="FOIL-UI.css">
-  <script src="index.js"></script>
 </head>
 
 <body>
@@ -14,20 +12,14 @@
   <div class="FOIL-Font-Styles--sans-serif">
 
 <div class="FOIL-Navigation-Bar color-is-red">
-    <FOIL-Font-Size-19>hr:mm</FOIL-Font-Size-19>
+    <FOIL-Font-Size-19></FOIL-Font-Size-19>
     <FOIL-Font-Size-13><script src="Greeting.js"></script></FOIL-Font-Size-13>
     <a href="about.php" class="FOIL-button-small color-is-green">About</a>
     <a href="help.php" class="FOIL-button-small color-is-green">Help</a>
 </div>
     <div class="FOIL-layout color-is-red">
       <div id="dialogue"></div>
-      <form onSubmit="return chatbot.sendMessage()">
-        <div class="text-box">
-          <input type="text" name="message" id="message" autocomplete="off" disabled
-            placeholder="Please wait... loading...">
-          <input class="FOIL-button color-is-red" type="submit" value="Return">
-        </div>
-      </form>
+     
     </div>
     
     
