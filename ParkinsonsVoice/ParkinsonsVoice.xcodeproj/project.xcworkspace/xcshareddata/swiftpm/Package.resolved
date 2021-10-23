@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SigmaSwiftStatistics",
+        "repositoryURL": "https://github.com/evgenyneu/SigmaSwiftStatistics.git",
+        "state": {
+          "branch": "master",
+          "revision": "35b231856e175119ac3030d32a0366f7e266726b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

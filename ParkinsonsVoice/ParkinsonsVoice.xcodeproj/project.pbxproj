@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1100CD027238ED500CEDCA8 /* ParkinsonsVoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1100CC027238ED400CEDCA8 /* ParkinsonsVoiceApp.swift */; };
+		E1100CD127238ED500CEDCA8 /* ParkinsonsVoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1100CC027238ED400CEDCA8 /* ParkinsonsVoiceApp.swift */; };
+		E1100CD227238ED500CEDCA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1100CC127238ED400CEDCA8 /* ContentView.swift */; };
+		E1100CD327238ED500CEDCA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1100CC127238ED400CEDCA8 /* ContentView.swift */; };
+		E1100CD427238ED500CEDCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1100CC227238ED500CEDCA8 /* Assets.xcassets */; };
+		E1100CD527238ED500CEDCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1100CC227238ED500CEDCA8 /* Assets.xcassets */; };
+		E1100CDF27238EEC00CEDCA8 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1100CDE27238EEC00CEDCA8 /* SpeechManager.swift */; };
+		E1100CE027238EED00CEDCA8 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1100CDE27238EEC00CEDCA8 /* SpeechManager.swift */; };
+		E170AC6E272490C6007A982D /* SigmaSwiftStatistics in Frameworks */ = {isa = PBXBuildFile; productRef = E170AC6D272490C6007A982D /* SigmaSwiftStatistics */; };
+		E170AC70272491B6007A982D /* ParkinsonsPredictor.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E170AC6F272491B6007A982D /* ParkinsonsPredictor.mlmodel */; };
+		E170AC71272491B6007A982D /* ParkinsonsPredictor.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E170AC6F272491B6007A982D /* ParkinsonsPredictor.mlmodel */; };
+		E170AC74272491DA007A982D /* SigmaSwiftStatistics in Frameworks */ = {isa = PBXBuildFile; productRef = E170AC73272491DA007A982D /* SigmaSwiftStatistics */; };
+		E170AC76272492E5007A982D /* ParkinsonsPredictor2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E170AC75272492E5007A982D /* ParkinsonsPredictor2.mlmodel */; };
+		E170AC77272492E5007A982D /* ParkinsonsPredictor2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E170AC75272492E5007A982D /* ParkinsonsPredictor2.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1100CC027238ED400CEDCA8 /* ParkinsonsVoiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkinsonsVoiceApp.swift; sourceTree = "<group>"; };
+		E1100CC127238ED400CEDCA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1100CC227238ED500CEDCA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1100CC727238ED500CEDCA8 /* ParkinsonsVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkinsonsVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1100CCD27238ED500CEDCA8 /* ParkinsonsVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkinsonsVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1100CCF27238ED500CEDCA8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E1100CDE27238EEC00CEDCA8 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		E170AC6F272491B6007A982D /* ParkinsonsPredictor.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ParkinsonsPredictor.mlmodel; path = ../../ParkinsonsPredictor.mlmodel; sourceTree = "<group>"; };
+		E170AC75272492E5007A982D /* ParkinsonsPredictor2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ParkinsonsPredictor2.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1100CC427238ED500CEDCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E170AC6E272490C6007A982D /* SigmaSwiftStatistics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1100CCA27238ED500CEDCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E170AC74272491DA007A982D /* SigmaSwiftStatistics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1100CBA27238ED300CEDCA8 = {
+			isa = PBXGroup;
+			children = (
+				E1100CBF27238ED400CEDCA8 /* Shared */,
+				E1100CCE27238ED500CEDCA8 /* macOS */,
+				E1100CC827238ED500CEDCA8 /* Products */,
+				E170AC72272491DA007A982D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1100CBF27238ED400CEDCA8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E1100CC027238ED400CEDCA8 /* ParkinsonsVoiceApp.swift */,
+				E1100CDE27238EEC00CEDCA8 /* SpeechManager.swift */,
+				E170AC6F272491B6007A982D /* ParkinsonsPredictor.mlmodel */,
+				E170AC75272492E5007A982D /* ParkinsonsPredictor2.mlmodel */,
+				E1100CC127238ED400CEDCA8 /* ContentView.swift */,
+				E1100CC227238ED500CEDCA8 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E1100CC827238ED500CEDCA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1100CC727238ED500CEDCA8 /* ParkinsonsVoice.app */,
+				E1100CCD27238ED500CEDCA8 /* ParkinsonsVoice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1100CCE27238ED500CEDCA8 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1100CCF27238ED500CEDCA8 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E170AC72272491DA007A982D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1100CC627238ED500CEDCA8 /* ParkinsonsVoice (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1100CD827238ED500CEDCA8 /* Build configuration list for PBXNativeTarget "ParkinsonsVoice (iOS)" */;
+			buildPhases = (
+				E1100CC327238ED500CEDCA8 /* Sources */,
+				E1100CC427238ED500CEDCA8 /* Frameworks */,
+				E1100CC527238ED500CEDCA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParkinsonsVoice (iOS)";
+			packageProductDependencies = (
+				E170AC6D272490C6007A982D /* SigmaSwiftStatistics */,
+			);
+			productName = "ParkinsonsVoice (iOS)";
+			productReference = E1100CC727238ED500CEDCA8 /* ParkinsonsVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1100CCC27238ED500CEDCA8 /* ParkinsonsVoice (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1100CDB27238ED500CEDCA8 /* Build configuration list for PBXNativeTarget "ParkinsonsVoice (macOS)" */;
+			buildPhases = (
+				E1100CC927238ED500CEDCA8 /* Sources */,
+				E1100CCA27238ED500CEDCA8 /* Frameworks */,
+				E1100CCB27238ED500CEDCA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParkinsonsVoice (macOS)";
+			packageProductDependencies = (
+				E170AC73272491DA007A982D /* SigmaSwiftStatistics */,
+			);
+			productName = "ParkinsonsVoice (macOS)";
+			productReference = E1100CCD27238ED500CEDCA8 /* ParkinsonsVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1100CBB27238ED300CEDCA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E1100CC627238ED500CEDCA8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E1100CCC27238ED500CEDCA8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = E1100CBE27238ED300CEDCA8 /* Build configuration list for PBXProject "ParkinsonsVoice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1100CBA27238ED300CEDCA8;
+			packageReferences = (
+				E170AC6C272490C6007A982D /* XCRemoteSwiftPackageReference "SigmaSwiftStatistics" */,
+			);
+			productRefGroup = E1100CC827238ED500CEDCA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1100CC627238ED500CEDCA8 /* ParkinsonsVoice (iOS) */,
+				E1100CCC27238ED500CEDCA8 /* ParkinsonsVoice (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1100CC527238ED500CEDCA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1100CD427238ED500CEDCA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1100CCB27238ED500CEDCA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1100CD527238ED500CEDCA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1100CC327238ED500CEDCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E170AC76272492E5007A982D /* ParkinsonsPredictor2.mlmodel in Sources */,
+				E1100CD227238ED500CEDCA8 /* ContentView.swift in Sources */,
+				E1100CDF27238EEC00CEDCA8 /* SpeechManager.swift in Sources */,
+				E1100CD027238ED500CEDCA8 /* ParkinsonsVoiceApp.swift in Sources */,
+				E170AC70272491B6007A982D /* ParkinsonsPredictor.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1100CC927238ED500CEDCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E170AC77272492E5007A982D /* ParkinsonsPredictor2.mlmodel in Sources */,
+				E1100CD327238ED500CEDCA8 /* ContentView.swift in Sources */,
+				E1100CE027238EED00CEDCA8 /* SpeechManager.swift in Sources */,
+				E1100CD127238ED500CEDCA8 /* ParkinsonsVoiceApp.swift in Sources */,
+				E170AC71272491B6007A982D /* ParkinsonsPredictor.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1100CD627238ED500CEDCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1100CD727238ED500CEDCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E1100CD927238ED500CEDCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To lkisten to speech";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To listen to speak";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.ParkinsonsVoice;
+				PRODUCT_NAME = ParkinsonsVoice;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1100CDA27238ED500CEDCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To lkisten to speech";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To listen to speak";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.ParkinsonsVoice;
+				PRODUCT_NAME = ParkinsonsVoice;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1100CDC27238ED500CEDCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To lkisten to speech";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To listen to speak";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.ParkinsonsVoice;
+				PRODUCT_NAME = ParkinsonsVoice;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1100CDD27238ED500CEDCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To lkisten to speech";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To listen to speak";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.ParkinsonsVoice;
+				PRODUCT_NAME = ParkinsonsVoice;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1100CBE27238ED300CEDCA8 /* Build configuration list for PBXProject "ParkinsonsVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1100CD627238ED500CEDCA8 /* Debug */,
+				E1100CD727238ED500CEDCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1100CD827238ED500CEDCA8 /* Build configuration list for PBXNativeTarget "ParkinsonsVoice (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1100CD927238ED500CEDCA8 /* Debug */,
+				E1100CDA27238ED500CEDCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1100CDB27238ED500CEDCA8 /* Build configuration list for PBXNativeTarget "ParkinsonsVoice (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1100CDC27238ED500CEDCA8 /* Debug */,
+				E1100CDD27238ED500CEDCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E170AC6C272490C6007A982D /* XCRemoteSwiftPackageReference "SigmaSwiftStatistics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/SigmaSwiftStatistics.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E170AC6D272490C6007A982D /* SigmaSwiftStatistics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E170AC6C272490C6007A982D /* XCRemoteSwiftPackageReference "SigmaSwiftStatistics" */;
+			productName = SigmaSwiftStatistics;
+		};
+		E170AC73272491DA007A982D /* SigmaSwiftStatistics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E170AC6C272490C6007A982D /* XCRemoteSwiftPackageReference "SigmaSwiftStatistics" */;
+			productName = SigmaSwiftStatistics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E1100CBB27238ED300CEDCA8 /* Project object */;
+}
