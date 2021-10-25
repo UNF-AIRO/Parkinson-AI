@@ -1,0 +1,28 @@
+/********************************************************	
+*		animations.css
+*  	This file uses the FOIL-UI components to enhance more 
+*	features to the user interface itself
+*
+*********************************************************/
+
+@import url('./FOIL-UI.css');
+
+
+/* Tweaks for the FOIL-Layout Component */
+.FOIL-Layout {
+	animation-name: layoutTweak;
+	 /* How many seconds it takes to animate */
+	animation-duration: 0.2s; 
+}
+
+
+
+@keyframes layoutTweak {
+	from {
+		font-size:200px;
+	}
+  
+	to {
+		font-size:auto;
+	}
+  }
