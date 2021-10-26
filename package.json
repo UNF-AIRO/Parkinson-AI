@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/UNF-AIRO/Parkinson-AI/issues"
   },
-  "homepage": "https://github.com/UNF-AIRO/Parkinson-AI#readme"
+  "homepage": "https://github.com/UNF-AIRO/Parkinson-AI#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.10.0"
+  }
 }
